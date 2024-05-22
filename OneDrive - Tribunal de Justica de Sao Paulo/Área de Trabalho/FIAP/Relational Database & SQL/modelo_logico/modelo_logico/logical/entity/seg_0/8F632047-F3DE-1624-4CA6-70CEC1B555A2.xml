@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F632047-F3DE-1624-4CA6-70CEC1B555A2" name="TB_CONSULTA">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 17:53:55 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_consulta" id="ACF3A069-7A3B-E37C-8A08-59986F6F1A74">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 17:54:12 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hr_consulta" id="9756DEB2-34BF-44AB-26F6-E6424D1A4AD4">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 17:54:36 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="B0A4578B-2737-F103-A9A3-6E11F0429C82">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 17:55:41 UTC</createdTime>
+<generatorID>B9ECAD25-CA78-E8EA-B4BA-93450BB6D7B5</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<referedAttribute>ECB0E02D-299B-6BBE-4E05-8151BE1D1482</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="crm" id="3D156866-D0DA-D732-E26E-F71EBC87B48D">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 17:55:48 UTC</createdTime>
+<generatorID>D4A0CEBC-AB4B-F044-409D-FFA46D21D909</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<referedAttribute>57449E45-7D02-BE42-9DB9-8BB9B433380F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_especialidade" id="0384C2F7-8E51-81D7-FC1E-F01F5D6C12A8">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 18:10:05 UTC</createdTime>
+<generatorID>D4A0CEBC-AB4B-F044-409D-FFA46D21D909</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<referedAttribute>062035A7-1843-E13A-BE83-60500B5BD1FB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D03D1F75-3C60-648B-7742-B102649A47EE" name="tb_consulta PK">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 17:54:21 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ACF3A069-7A3B-E37C-8A08-59986F6F1A74</attributeRef>
+<attributeRef>B0A4578B-2737-F103-A9A3-6E11F0429C82</attributeRef>
+<attributeRef>3D156866-D0DA-D732-E26E-F71EBC87B48D</attributeRef>
+<attributeRef>0384C2F7-8E51-81D7-FC1E-F01F5D6C12A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

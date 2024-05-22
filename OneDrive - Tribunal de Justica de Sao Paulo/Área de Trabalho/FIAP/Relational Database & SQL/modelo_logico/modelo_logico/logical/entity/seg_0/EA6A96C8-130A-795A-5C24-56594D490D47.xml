@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA6A96C8-130A-795A-5C24-56594D490D47" name="TB_TELEFONE_PACIENTE">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 17:58:20 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="0DCF57F2-7D6C-DBAE-5EE8-3384AAE39A45">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 18:00:00 UTC</createdTime>
+<generatorID>51C3BD80-28A2-67CC-05C8-63B338085285</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<referedAttribute>ECB0E02D-299B-6BBE-4E05-8151BE1D1482</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_telefone" id="3C263F0F-D99F-B495-A7CF-EA15B4084571">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 18:00:05 UTC</createdTime>
+<generatorID>C16EC493-EC17-71DA-47B7-E2EEA1DFDDA6</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<referedAttribute>E4C50D4D-67DC-3037-26EA-BF0E50A87DCA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="908FE2AE-72AC-4F69-4645-8056F638DFE9" name="telefone_paciente PK">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 18:00:00 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DCF57F2-7D6C-DBAE-5EE8-3384AAE39A45</attributeRef>
+<attributeRef>3C263F0F-D99F-B495-A7CF-EA15B4084571</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

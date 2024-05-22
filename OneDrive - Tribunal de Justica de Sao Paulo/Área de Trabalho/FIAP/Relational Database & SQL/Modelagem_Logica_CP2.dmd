@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelagem_Logica_CP2" id="EAC3B5D0-A5A4-1440-C56C-FD6A96771914" version="3.5">
+<createdBy>Fernanda</createdBy>
+<createdTime>2024-05-03 16:56:16 UTC</createdTime>
+<ownerDesignName>Modelagem_Logica_CP2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EAC3B5D0-A5A4-1440-C56C-FD6A96771914</designId>
+</OSDM_Design>

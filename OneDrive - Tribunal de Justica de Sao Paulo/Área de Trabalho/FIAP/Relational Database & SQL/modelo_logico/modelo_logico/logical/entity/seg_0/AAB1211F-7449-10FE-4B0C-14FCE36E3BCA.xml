@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAB1211F-7449-10FE-4B0C-14FCE36E3BCA" name="TB_ENDERECO_MEDICO">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 18:01:42 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="crm" id="2E58F308-9C91-1CBB-A3DF-50D512061050">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 18:04:01 UTC</createdTime>
+<generatorID>5E762924-2C52-A9E4-B2D2-C2C94FFD605B</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<referedAttribute>57449E45-7D02-BE42-9DB9-8BB9B433380F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_logradouro" id="C4E5CA81-A579-1167-89DB-914B02360CFE">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 18:04:50 UTC</createdTime>
+<generatorID>56C73008-3ED8-E5E9-F729-A4831B1737B2</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<referedAttribute>2A9142A6-20B9-20D5-0839-FCA848B4CEAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_bairro" id="516274CA-5C7D-C041-130E-5B1944F52140">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 18:07:41 UTC</createdTime>
+<generatorID>56C73008-3ED8-E5E9-F729-A4831B1737B2</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<referedAttribute>42B9FDBB-D502-153A-A20C-F113B979A558</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_municipio" id="66A9197F-17D8-F294-A0F1-23D4D57FF82E">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 18:07:53 UTC</createdTime>
+<generatorID>56C73008-3ED8-E5E9-F729-A4831B1737B2</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<referedAttribute>F27C4B28-66C3-AEA1-9192-4969DA8D83C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_estado" id="AB754ADC-B16D-4856-6F62-55E89774BC06">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 18:08:01 UTC</createdTime>
+<generatorID>56C73008-3ED8-E5E9-F729-A4831B1737B2</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<referedAttribute>C7798CFE-1CBB-B4BB-C9D6-72A02EB223F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_especialidade" id="DDEF1DB4-3B21-80E4-579E-E59BB89016F4">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 18:10:05 UTC</createdTime>
+<generatorID>5E762924-2C52-A9E4-B2D2-C2C94FFD605B</generatorID>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<referedAttribute>062035A7-1843-E13A-BE83-60500B5BD1FB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC86FE6E-752F-0F54-5986-C38C8C9DB1A8" name="ENDERECO_MEDICO PK">
+<createdBy>danta</createdBy>
+<createdTime>2024-05-03 18:04:01 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2AA0A31A-D10B-10DB-BC8C-CF47D6B61801" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E58F308-9C91-1CBB-A3DF-50D512061050</attributeRef>
+<attributeRef>DDEF1DB4-3B21-80E4-579E-E59BB89016F4</attributeRef>
+<attributeRef>C4E5CA81-A579-1167-89DB-914B02360CFE</attributeRef>
+<attributeRef>516274CA-5C7D-C041-130E-5B1944F52140</attributeRef>
+<attributeRef>66A9197F-17D8-F294-A0F1-23D4D57FF82E</attributeRef>
+<attributeRef>AB754ADC-B16D-4856-6F62-55E89774BC06</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
