@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0868F3E-947B-DEFB-E4F3-B36D0C158D6E" name="TB_ESPECIALIDADE">
+<createdBy>Fernanda</createdBy>
+<createdTime>2024-05-22 19:07:50 UTC</createdTime>
+<ownerDesignName>modelo_logico_cp3</ownerDesignName>
+<engineerTo>
+<item key="A36B8711-26B1-63A3-642B-FFB124843303" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_especialidade" id="78393075-F39D-289E-DB39-3414E289996F">
+<createdBy>Fernanda</createdBy>
+<createdTime>2024-05-22 19:08:01 UTC</createdTime>
+<ownerDesignName>modelo_logico_cp3</ownerDesignName>
+<engineerTo>
+<item key="A36B8711-26B1-63A3-642B-FFB124843303" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_especialidade" id="A989DD64-254A-AC62-599F-992E731CCECC">
+<createdBy>Fernanda</createdBy>
+<createdTime>2024-05-22 19:08:29 UTC</createdTime>
+<ownerDesignName>modelo_logico_cp3</ownerDesignName>
+<engineerTo>
+<item key="A36B8711-26B1-63A3-642B-FFB124843303" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="659C17BD-98E3-517B-854E-43EE3FE0883F" name="TB_ESPECIALIDADE PK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2024-05-22 19:08:24 UTC</createdTime>
+<ownerDesignName>modelo_logico_cp3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A36B8711-26B1-63A3-642B-FFB124843303" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78393075-F39D-289E-DB39-3414E289996F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
