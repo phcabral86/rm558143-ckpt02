@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_logico" id="CB4FAFA9-07EB-F7E8-CDFD-BAF1B36A3C05" version="3.5">
-<createdBy>danta</createdBy>
-<createdTime>2024-05-03 17:48:53 UTC</createdTime>
-<ownerDesignName>modelo_logico</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>CB4FAFA9-07EB-F7E8-CDFD-BAF1B36A3C05</designId>
-</OSDM_Design>
